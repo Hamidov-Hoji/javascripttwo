@@ -1,0 +1,11 @@
+@mixin d-flex($align-items, $juctify){
+  display: flex;
+  align-items:$align-items;
+  justify-content:$juctify;
+}
+
+@mixin list($type-none) {
+  list-style-type:$type-none;
+  margin: 0;
+  padding: 0;
+}
